@@ -194,7 +194,14 @@ if __name__ == '__main__':
             epochs=100, batch_size=128)
 
     # Save model for further use
-    model.save(folderPath + "model/model.h5")
+    # Create target Directory if don't exist
+    model_dirname = folderPath + 'model/' 
+    if not os.path.exists(model_dirname):
+        os.mkdir(model_dirname)
+        print("Directory " , model_dirname ,  " Created ")
+    else:    
+        print("Directory " , model_dirname ,  " already exists")
+    model.save(folderPath + model_dirname + "model.h5")
     print("Saved model to disk")
 
     print('Preparing Testing data')
