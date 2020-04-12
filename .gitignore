@@ -1,4 +1,5 @@
-data/*
+data/*.csv
+data/*.txt
 model/*
 logs
 submission-final.csv

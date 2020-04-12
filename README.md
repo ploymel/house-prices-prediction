@@ -9,18 +9,18 @@ Competition link -> [House Prices: Advanced Regression Techniques](https://www.k
 * Tensorflow 2.x
 
 ## To Obtain the Model
-1. Download dataset from [kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) and place all the file in `data` folder
-2. Preprocess Data including dealing with missing data and dummies by running
+1. Download dataset from [kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) and place all the files in `data` folder.
+2. Preprocess Data including dealing with missing data and dummies by running:
 ```
 python preprocessing.py
 ```
-For more information please go to [preprocessing jupyter](./preprocessing.ipynb)
-3. Train the Model by running
+For more information please go to [preprocessing jupyter](./preprocessing.ipynb).  
+3. Train the Model by running:
 ```
 python train.py
 ```
-This code is included training the model and saving the prediction for submission  
-For validation please go to [train juptyer](./train.ipynb)
+This code is included training the model and saving the prediction for submission.  
+For validation please go to [train juptyer](./train.ipynb).
 
 ## Reference
 * [COMPREHENSIVE DATA EXPLORATION WITH PYTHON](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python#4.-Missing-data)
