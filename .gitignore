@@ -1,0 +1,6 @@
+data/*
+model/*
+logs
+submission-final.csv
+submission.csv
+.ipynb_checkpoints
